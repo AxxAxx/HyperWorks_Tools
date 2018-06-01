@@ -1,0 +1,14 @@
+% To get the string run "readvectorbuilder" in the command line
+
+
+% printf('\n\n')
+% printf('Nodal Displacements:')
+% readmultvectors('C:/Users/SEAXJOH/Desktop/a.odb','Step-1:','Displacement (PART-1-1)','N1','N1','X','Z','1')
+% readmultvectors('C:/Users/SEAXJOH/Desktop/a1.odb','Step-1:','Displacement (PART-1-1)','N1','N1','X','Z','1')
+
+% printf('Section Moment:')
+% readmultvectors('C:/Users/SEAXJOH/Desktop/a.odb','Step-1:','SF-Section Forces (PART-1-1)','E101','E105','SF3','SF5','1')
+% readmultvectors('C:/Users/SEAXJOH/Desktop/a1.odb','Step-1:','SF-Section Forces (PART-1-1)','E101','E105','SF3','SF5','1')
+A = readmultvectors('C:/Users/SEAXJOH/Desktop/GGFL1050 Bushings/GGFL1050Bolt.odb','Wind:','RF-Reaction force (PART-1-1)','N1','N1','X','Z','1')
+
+A(1)
