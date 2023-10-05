@@ -4,7 +4,7 @@ namespace eval ::MyNameSpace::UI {
 variable m_base
 variable m_master_frame
 }
-#########################################################
+##########################################################
 proc ::MyNameSpace::UI::CreateActionFrame { } {
 #Action Frame
 set action_frame [frame $::MyNameSpace::UI::m_master_frame.action_frame -height 100 -width 100];
